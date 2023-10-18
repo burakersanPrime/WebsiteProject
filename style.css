@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0px;
+}
+
+.lifontclass {
+	font-family: 'Kanit', sans-serif;
+	font-size: 12px;
+	color: #9b9b9b;
+	list-style-type: none;
+	float: left;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+#header {
+	background-color: #2a2a2a;
+	width: 100%;
+	height: 53px;
+	margin-top: 0px;
+}
+
+#logo {
+	width: 45px;
+	height: 45px;
+	margin-left: 4px;
+	margin-top: 4px;
+	float: left;
+	transition: 1s;
+}
+
+#store {
+	border: 1px solid none;
+	box-sizing: border-box;
+	width: 65px;
+	height: 4px;
+	padding-left: 15px;
+	padding-top: 4px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#community {
+	border: 1px solid none;
+	box-sizing: border-box;
+	width: 100px;
+	height: 4px;
+	padding-left: 19px;
+	padding-top: 4px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#aboutus {
+	border: 1px solid none;
+	box-sizing: border-box;
+	width: 85px;
+	height: 4px;
+	padding-left: 15px;
+	padding-top: 4px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#help {
+	border: 1px solid none;
+	box-sizing: border-box;
+	width: 65px;
+	height: 4px;
+	padding-left: 20px;
+	padding-top: 4px;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+
+#headertextarea ul li:hover {
+	background-color: #3f7f00;
+	color: #fafafa;
+	scale: 1.1;
+}
+
+#headertextarea ul li:focus {
+	background-color: #3f7f00;
+	color: #fafafa;
+	scale: 1.1;
+}
+
+#logo:hover {
+	scale: 1.1;
+}
+
+#signdiv {
+	background-color: #2a2a2a;
+	width: 130px;
+	height: 53px;
+	float: right;
+}
+
+#sign {
+	font-family: 'Kanit', sans-serif;
+	font-size: 12px;
+	color: #fafafa;
+	margin-top: 11px;
+	border: 1px solid none;
+	box-sizing: border-box;
+	padding-top: 6px;
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	letter-spacing: 1px;
+	transition: 1s;
+}
+
+#sign:hover {
+	background-color: #3f7f00;
+	scale: 1.1;
+	letter-spacing: 2px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+#langdiv {
+	width: 50px;
+	height: 53px;
+	float: right;
+}
+
+#langicon {
+	width: 20px;
+	margin-top: 16px;
+	margin-left: 17px;
+	transition: 0.5s;
+}
+
+#langicon:hover {
+	scale: 1.2;
+}
+
+#container {
+	background-color: #121212;
+	width: 100%;
+	height: 5300px;
+}
+
+#searchbardiv {
+	width: 256px;
+	height: 38px;
+	background-color: #202020;
+	float: right;
+	border-radius: 30px;
+	margin-right: 94px;
+	margin-top: 11px;
+}
+
+#searchbar {
+	border: 0px solid #202020;
+	border-radius: 30px;
+	background-color: #202020;
+	width: 220px;
+	height: 36px;
+	color: #fafafa;
+	outline: none;
+	transition: 0.3s;
+}
+
+#searchbar:hover {
+	background-color: #2a2a2a;
+}
+
+#searchbar:focus {
+	background-color: #2a2a2a;
+	scale: 1.04;
+}
+
+.fa {
+	color: #9b9b9b;
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 3px;
+}
+
+::placeholder {
+	color: #6d6c6d;
+	font-family: 'Kanit', sans-serif;
+	letter-spacing: 0px;
+	padding-left: 5px;
+}
+
+#flexdiv {
+	background-color: #121212;
+	width: 100%;
+	height: 60px;
+	top: 0;
+	position: sticky;
+	z-index: 1;
+}
+
+#up {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 20px;
+	margin-top: 14px;
+	margin-left: 15px;
+	float: left;
+	transition: 0.5s;
+	padding-left: 10px;
+	border: 1px solid none;
+	border-radius: 10px;
+	width: 90px;
+	box-sizing: border-box;
+}
+
+#cate {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 20px;
+	margin-top: 14px;
+	margin-left: 15px;
+	float: left;
+	transition: 0.5s;
+	padding-left: 10px;
+	border: 1px solid none;
+	border-radius: 10px;
+	width: 155px;
+	box-sizing: border-box;
+}
+
+#cate:hover {
+	color: #fafafa;
+	scale: 1.1;
+	background-color: #202020;
+}
+
+#up:hover {
+	color: #fafafa;
+	scale: 1.1;
+	background-color: #202020;
+}
+
+#upred {
+	margin-top: 12px;
+	margin-left: 0px;
+	font-size: 17px;
+}
+
+#browse {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	float: right;
+	font-size: 20px;
+	margin-top: 14px;
+	margin-right: 20px;
+	transition: 0.5s;
+}
+
+#browse:hover {
+	color: #fafafa;
+}
+
+#category {
+	background-color: #2a2a2a;
+	margin: auto;
+	margin-top: 10px;
+	border-radius: 50px;
+	width: 90%;
+	height: 500px;
+}
+
+.cent {
+	margin-top: 50px;
+	margin-left: 157px;
+	background-color: #202020;
+	width: 350px;
+	height: 400px;
+	float: left;
+	border-radius: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.cent:hover {
+	background-color: #373737;
+	scale: 1.03;
+	border: 1px solid #3f7f00;
+	letter-spacing: 3px;
+}
+
+#game1 {
+	width: 80%;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-left: 40px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+#game2 {
+	width: 80%;
+	margin-top: 30px;
+	margin-left: 40px;
+	margin-bottom: 50px;
+	border-radius: 20px;
+}
+
+#game3 {
+	width: 80%;
+	margin-top: 30px;
+	margin-left: 40px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+}
+
+.txt {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 30px;
+	text-align: center;
+}
+
+#videodiv {
+	overflow: hidden;
+	background-color: white;
+	width: 80%;
+	height: 300px;
+	margin-top: 30px;
+	border-radius: 50px;
+	transition: 1s;
+	border: 2px solid darkgrey;
+	box-sizing: border-box;
+}
+
+#videodiv:hover {
+	border: 2px solid #3f7f00;
+}
+
+#video {
+	width: 101%;
+	margin-top: -100px;
+}
+
+#brtxt {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#browsegames {
+	width: 80%;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding-top: 30px;
+}
+
+#brgame1 {
+	width: 20%;
+	height: 325px;
+	border-radius: 25px;
+	float: left;
+	margin-left: 60px;
+	overflow: hidden;
+	transition: 1s;
+}
+
+#brgame2 {
+	width: 20%;
+	height: 325px;
+	border-radius: 25px;
+	float: left;
+	margin-left: 60px;
+	overflow: hidden;
+	transition: 1s;
+}
+
+#brgame3 {
+	width: 20%;
+	height: 325px;
+	border-radius: 25px;
+	float: left;
+	margin-left: 60px;
+	overflow: hidden;
+	transition: 1s;
+}
+
+#brgame4 {
+	width: 20%;
+	height: 325px;
+	border-radius: 25px;
+	float: left;
+	margin-left: 60px;
+	overflow: hidden;
+	transition: 1s;
+}
+
+#brgame1txt {
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	transition: 0.7s;
+}
+
+#brgame2txt {
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	transition: 0.7s;
+}
+
+#brgame3txt {
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	transition: 0.7s;
+}
+
+#brgame4txt {
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin-left: 60px;
+	margin-top: 20px;
+	transition: 0.7s;
+}
+
+#gta {
+	width: 100%;
+	margin-top: 0px;
+
+}
+
+#forza {
+	width: 100%;
+	margin-top: -60px;
+}
+
+#rdr {
+	width: 100%;
+}
+
+#lol {
+	width: 100%;
+	margin-top: -60px;
+}
+
+.txtfontclass {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #fafafa;
+	list-style-type: none;
+	margin-top: 4px;
+	margin-left: 4px;
+}
+
+.avaible {
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	border: 1px solid none;
+	width: 130px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 6px;
+	padding-left: 9px;
+	color: #fafafa;
+	list-style-type: none;
+	box-sizing: border-box;
+	background-color: #202020;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.price {
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	color: #fafafa;
+	list-style-type: none;
+	margin-top: 8px;
+	margin-left: 10px;
+	float: left;
+}
+
+.free {
+	font-family: 'Lato', sans-serif;
+	font-size: 13px;
+	color: #fafafa;
+	list-style-type: none;
+	margin-top: 9px;
+	margin-left: 10px;
+	float: left;
+	border: 1px solid none;
+	width: 130px;
+	height: 20px;
+	border-radius: 5px;
+	padding-top: 2px;
+	padding-left: 15px;
+	color: #fafafa;
+	list-style-type: none;
+	box-sizing: border-box;
+	background-color: #3f7f00;
+}
+
+.gamehv:hover {
+	scale: 1.1;
+}
+
+#srvtxt {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#gta-i {
+	width: 100%;
+	margin-top: -30px;
+}
+
+#lol-i {
+	width: 100%;
+}
+
+#cooptxt {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#racetxt {
+	font-family: 'Kanit', sans-serif;
+	color: #9b9b9b;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#forward1 {
+	width: 100%;
+	height: 30px;
+}
+
+#forward2 {
+	width: 100%;
+	height: 30px;
+}
+
+#forward3 {
+	width: 100%;
+	height: 30px;
+}
+
+#forward4 {
+	width: 100%;
+	height: 30px;
+}
+
+#sp {
+	width: 100%;
+	margin-top: -43px;
+}
+
+#welcome {
+	background-color: gray;
+	width: 100%;
+	height: 930px;
+	margin-bottom: 30px;
+	background-image: url(ac.jpg);
+}
+
+#sloganarea {
+	background-color: rgba(42, 42, 42, 0.9);
+	width: 30%;
+	height: 700px;
+	margin-left: 100px;
+	float: left;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+#eagletxt {
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+}
+
+#imp {
+	width: 500px;
+	margin-top: 30px;
+	margin-left: 20px;
+	float: left;
+}
+
+#ply {
+	width: 500px;
+	margin-left: 20px;
+	float: left;
+}
+
+#liv {
+	width: 500px;
+	margin-left: 30px;
+	float: left;
+}
+
+#reach {
+	width: 400px;
+	margin-left: 80px;
+	margin-top: 50px;
+	border: 1px solid none;
+	border-radius: 20px;
+	float: left;
+	transition: 1s;
+}
+
+#reach:hover {
+	background-color: #fafafa;
+	;
+	scale: 1.1;
+}
+
+#forward6 {
+	width: 100%;
+	height: 10px;
+}
+
+#footer {
+	margin-top: 30px;
+	width: 100%;
+	height: 110px;
+	background-color: #202020;
+	box-sizing: border-box;
+}
+
+#footereagle {
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+}
+
+.footericons {
+	width: 30px;
+	margin-left: 30px;
+	margin-top: 40px;
+	transition: 0.3s;
+	float: left;
+}
+
+.footericons:hover {
+	filter: invert(49%) sepia(58%) saturate(6546%) hue-rotate(65deg) brightness(89%) contrast(101%);
+	scale: 1.7;
+}
+
+#footertext {
+	font-family: 'Kanit', sans-serif;
+	color: #fafafa;
+	margin: 30px;
+	float: left;
+}
+
+#sec1 {
+	transition: 1s;
+}
+
+#sec1:hover {
+	background-color: darkblue;
+	color: yellow;
+	letter-spacing: 7px;
+}

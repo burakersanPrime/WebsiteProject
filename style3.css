@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+ scroll-behavior: smooth;
+}
+
+* {
+ margin: 0px;
+}
+
+.fontclass {
+ font-family: 'Poppins', sans-serif;
+ color: white;
+}
+
+.lifontclass {
+ font-family: 'Kanit', sans-serif;
+ font-size: 12px;
+ color: #9b9b9b;
+ list-style-type: none;
+ float: left;
+ margin-top: 12px;
+ margin-left: 20px;
+}
+
+#header {
+ background-color: #2a2a2a;
+ width: 100%;
+ height: 53px;
+ margin-top: 0px;
+}
+
+#logo {
+ width: 45px;
+ height: 45px;
+ margin-left: 4px;
+ margin-top: 4px;
+ float: left;
+ transition: 1s;
+}
+
+#store {
+ border: 1px solid none;
+ box-sizing: border-box;
+ width: 65px;
+ height: 4px;
+ padding-left: 15px;
+ padding-top: 4px;
+ border-radius: 10px;
+ transition: 0.5s;
+}
+
+#community {
+ border: 1px solid none;
+ box-sizing: border-box;
+ width: 100px;
+ height: 4px;
+ padding-left: 19px;
+ padding-top: 4px;
+ border-radius: 10px;
+ transition: 0.5s;
+}
+
+#help {
+ border: 1px solid none;
+ box-sizing: border-box;
+ width: 65px;
+ height: 4px;
+ padding-left: 20px;
+ padding-top: 4px;
+ border-radius: 10px;
+ transition: 0.5s;
+}
+
+#headertextarea ul li:hover {
+ background-color: #3f7f00;
+ color: #fafafa;
+ scale: 1.1;
+}
+
+#headertextarea ul li:focus {
+ background-color: #3f7f00;
+ color: #fafafa;
+ scale: 1.1;
+}
+
+#logo:hover {
+ scale: 1.1;
+}
+
+#formallbackground {
+ background-color: #121212;
+ width: 100%;
+ height: 960px;
+ box-sizing: border-box;
+}
+
+#formbackground {
+ width: 50%;
+ height: 605px;
+ background-color: #2a2a2a;
+ margin: auto;
+ border-radius: 70px;
+ transition: 1s;
+
+}
+
+#formbackground:hover {
+ box-sizing: border-box;
+ border: 1px solid #3f7f00;
+}
+
+#center {
+ margin-left: 330px;
+ margin-right: 20px;
+}
+
+#kayıt{
+ margin-left: 440px;
+ margin-top: 30px;
+ padding: 20px;
+ border: 0px solid #202020;
+ border-radius: 30px;
+ background-color: #202020;
+ color: #fafafa;
+ outline: none;
+ transition: 0.3s;
+}
+
+#kayıt:hover{
+ background-color: #121212;
+ border: 1px solid #3f7f00;
+ scale: 1.1;
+}
+
+.searchbar {
+ border: 0px solid #202020;
+ border-radius: 30px;
+ background-color: #202020;
+ width: 220px;
+ height: 36px;
+ color: #fafafa;
+ outline: none;
+ transition: 0.3s;
+}
+
+.searchbar:hover {
+ background-color: #121212;
+}
+
+.searchbar:focus {
+ background-color: #121212;
+ border: 1px solid #3f7f00;
+ scale: 1.1;
+}
+
+::placeholder {
+ color: #6d6c6d;
+ font-family: 'Kanit', sans-serif;
+ letter-spacing: 0px;
+ padding-left: 20px;
+}
+
+#footer {
+	margin-top: 150px;
+	width: 100%;
+	height: 110px;
+	background-color: #202020;
+	box-sizing: border-box;
+}
+
+#footereagle {
+	width: 700px;
+	float: left;
+	margin-top: 20px;
+}
+
+.footericons {
+	width: 30px;
+	margin-left: 30px;
+	margin-top: 40px;
+	transition: 0.3s;
+	float: left;
+}
+
+.footericons:hover {
+	filter: invert(49%) sepia(58%) saturate(6546%) hue-rotate(65deg) brightness(89%) contrast(101%);
+	scale: 1.7;
+}
+
+#footertext {
+	font-family: 'Kanit', sans-serif;
+	color: #fafafa;
+	margin: 30px;
+	float: left;
+}

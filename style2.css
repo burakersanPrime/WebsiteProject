@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+}
+
+.lifontclass {
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: #9b9b9b;
+    list-style-type: none;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+#header {
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 53px;
+    margin-top: 0px;
+}
+
+#logo {
+    width: 45px;
+    height: 45px;
+    margin-left: 4px;
+    margin-top: 4px;
+    float: left;
+    transition: 1s;
+}
+
+#store {
+    border: 1px solid none;
+    box-sizing: border-box;
+    width: 65px;
+    height: 4px;
+    padding-left: 15px;
+    padding-top: 4px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#community {
+    border: 1px solid none;
+    box-sizing: border-box;
+    width: 100px;
+    height: 4px;
+    padding-left: 19px;
+    padding-top: 4px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#help {
+    border: 1px solid none;
+    box-sizing: border-box;
+    width: 65px;
+    height: 4px;
+    padding-left: 20px;
+    padding-top: 4px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#headertextarea ul li:hover {
+    background-color: #3f7f00;
+    color: #fafafa;
+    scale: 1.1;
+}
+
+#headertextarea ul li:focus {
+    background-color: #3f7f00;
+    color: #fafafa;
+    scale: 1.1;
+}
+
+#logo:hover {
+    scale: 1.1;
+}
+
+#signdiv {
+    background-color: #2a2a2a;
+    width: 130px;
+    height: 53px;
+    float: right;
+}
+
+#sign {
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: #fafafa;
+    margin-top: 11px;
+    border: 1px solid none;
+    box-sizing: border-box;
+    padding-top: 6px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+#sign:hover {
+    background-color: #3f7f00;
+    scale: 1.1;
+    letter-spacing: 2px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#langdiv {
+    width: 50px;
+    height: 53px;
+    float: right;
+}
+
+#langicon {
+    width: 20px;
+    margin-top: 16px;
+    margin-left: 17px;
+    transition: 0.5s;
+}
+
+#langicon:hover {
+    scale: 1.2;
+}
+
+#container {
+    width: 100%;
+    height: 2300px;
+    background-color: #121212;
+}
+
+#main {
+    width: 90%;
+    height: 1720px;
+    background-color: #2a2a2a;
+    float: left;
+    margin-top: 20px;
+    margin-left: 93px;
+    border-radius: 50px;
+    transition: 1s;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 1px solid #3f7f00;
+}
+
+#main:hover {
+    height: 2200px;
+}
+
+.photodiv {
+    width: 400px;
+    height: 170px;
+    margin-left: 55px;
+    margin-top: 40px;
+    border-radius: 20px;
+    float: left;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.photodiv:hover {
+    scale: 1.05;
+}
+
+.comdiv {
+    width: 1100px;
+    height: 170px;
+    background-color: #121212;
+    float: left;
+    margin-top: 40px;
+    margin-left: 55px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: 0.5s ease-in-out;
+}
+
+.comdiv:hover {
+    border: 1px solid #3f7f00;
+}
+
+#gta5com {
+    width: 105%;
+    margin-top: -30px;
+    margin-left: -10px;
+}
+
+#forestcom {
+    width: 100%;
+}
+
+#nmscom {
+    width: 100%;
+}
+
+#forzacom {
+    width: 100%;
+    margin-top: -7px;
+}
+
+#gowcom {
+    width: 100%;
+    margin-top: -18px;
+    transition: 1s;
+}
+
+#subcom {
+    width: 100%;
+    margin-top: -15px;
+}
+
+#valcom {
+    width: 100%;
+
+}
+
+#spcom {
+    width: 100%;
+    margin-top: -26px;
+}
+
+#backbutton {
+    background-color: #121212;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+#up {
+    font-family: 'Kanit', sans-serif;
+    color: #9b9b9b;
+    font-size: 20px;
+    margin-top: 14px;
+    margin-left: 15px;
+    float: left;
+    transition: 0.5s;
+    padding-left: 10px;
+    border: 1px solid none;
+    border-radius: 10px;
+    width: 90px;
+    box-sizing: border-box;
+}
+
+#up:hover {
+    color: #fafafa;
+    scale: 1.1;
+    background-color: #202020;
+}
+
+#upred {
+    margin-top: 12px;
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+#signflex {
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    color: #fafafa;
+    margin-top: 15px;
+    border: 1px solid none;
+    box-sizing: border-box;
+    padding-top: 6px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+#signflex:hover {
+    background-color: #3f7f00;
+    scale: 1.1;
+    letter-spacing: 2px;
+}
+
+.comtextdiv {
+    background-color: #373737;
+    width: 900px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.cominfodiv {
+    background-color: #373737;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+    float: left;
+}
+
+#textarea {
+    width: 70%;
+    height: 350px;
+    margin-left: 250px;
+    margin-top: 60px;
+    float: left;
+    border-radius: 50px;
+    background-color: #202020;
+    transition: 1s linear;
+    color: #fafafa;
+    resize: none;
+    outline: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+textarea:hover {
+    border: 1px solid #3f7f00;
+    padding-top: 150px;
+}
+
+#submitbutton {
+    float: left;
+    margin-top: 440px;
+    width: 200px;
+    height: 50px;
+    background-color: #202020;
+    outline: 0px;
+    border-radius: 10px;
+    color: #fafafa;
+    border: 1px solid #767676;
+    margin-left: -690px;
+    transition: 0.5s linear;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+}
+
+#submitbutton:hover {
+    background-color: #3f7f00;
+    letter-spacing: 1px;
+    scale: 1.1;
+}
+
+.comtexts {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 49px;
+    padding-left: 10px;
+    color: #fafafa;
+}
+
+#namespace{
+    font-family: 'Kanit', sans-serif;
+    padding-top: 0.3px;
+    padding-left: 30px;
+    color: #fafafa;
+
+}
+
+#like {
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 3px;
+    float: left;
+}
+
+#dislike {
+    width: 42px;
+    height: 42px;
+    padding-left: 43px;
+    padding-top: 3px;
+    float: left;
+}
+
+#pp{
+    width: 50px;
+    height: 50px;
+    padding-left: 40px;
+    padding-top: 3px;
+    float: left;;
+}
